@@ -9,11 +9,13 @@ gdal <- function() {
   reticulate::import("osgeo.gdal")
 }
 
-.gdal <- reticulate::import("osgeo.gdal")
+
 
 
 
 multidimraster <- function(x, allowed_drivers = character(), open_options = character(), sibling_files = character()) {
+  .gdal <- reticulate::import("osgeo.gdal")
+  .gdal$UseExceptions()
   .gdal$OpenEx(x, nOpenFlags = .gdal$OF_MULTIDIM_RASTER, allowed_drivers = as.list(allowed_drivers), open_options = as.list(open_options), sibling_files = as.list(sibling_files))
 }
 
