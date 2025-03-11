@@ -44,7 +44,7 @@ print.osgeo.gdal.Dataset <- function(x, ...) {
 }
 
 ## heinous but this works
-get_all_array_full_names <- function(ds) {
+.oldget_all_array_full_names <- function(ds) {
   .env <- character()
   fun <- function(group, base = "") {
   gnames <- group$GetGroupNames()
@@ -65,5 +65,15 @@ get_all_array_full_names <- function(ds) {
 
   gsub("/$", "", arrs)
 }
+
+get_all_array_full_names <- function(g) {
+  groups <- g$GetGroupNames()
+  groupname <- g$GetFullName()
+  amd <- g$GetMDArrayNames()
+  md <- sprintf("%s/%s", groupname, amd)
+  md <- c(md, unlist(lapply(groups, \(.g) get_all_array_full_names(g$OpenGroup(.g)))))
+  md
+}
+
 
 

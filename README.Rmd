@@ -35,5 +35,36 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(pymdim)
 devtools::load_all()
-get_all_array_full_names(multidimraster(sample(eopf_zarr_examples(), 1)))
+dsn <- sample(eopf_zarr_examples(), 1)
+#dsn <-  "ZARR:\"/vsizip//vsicurl/https://eopf-public.s3.sbg.perf.cloud.ovh.net/eoproducts/S01SIWSLC_20231201T170634_0027_A117_S27C_VH_IW1_249411.zarr.zip\""
+ds <- multidimraster(dsn)
+get_all_array_full_names(ds$GetRootGroup())
+```
+
+
+In Python we can use a similar approach
+
+```python
+from osgeo import gdal
+dsn = "ZARR:\"/vsizip//vsicurl/https://eopf-public.s3.sbg.perf.cloud.ovh.net/eoproducts/S02MSIL1C_20230629T063559_0000_A064_T3A5.zarr.zip\""
+def fun(g):
+  groups = g.GetGroupNames()
+  groupname = g.GetFullName()
+  amd = g.GetMDArrayNames()
+  md = [f'{groupname}/{amd0}' for amd0 in amd]
+  md = flatten([md, [fun(g.OpenGroup(g0)) for g0 in groups]])
+  return md
+
+def flatten(S):
+    if S == []:
+        return S
+    if isinstance(S[0], list):
+        return flatten(S[0]) + flatten(S[1:])
+    return S[:1] + flatten(S[1:])
+
+ds = gdal.OpenEx(dsn, gdal.OF_MULTIDIM_RASTER)
+g =  ds.GetRootGroup()
+fun(g)
+
+#['/conditions/geometry/angle', '/conditions/geometry/band', '/conditions/geometry/detector', #'/conditions/geometry/x', '/conditions/geometry/y', '/conditions/geometry/mean_sun_angles', #'/conditions/geometry/mean_viewing_incidence_angles', '/conditions/geometry/sun_angles', #'/conditions/geometry/viewing_incidence_angles', '/conditions/mask/detector_footprint/r10m/x', #'/conditions/mask/detector_footprint/r10m/y', '/conditions/mask/detector_footprint/r10m/b02', #'/conditions/mask/detector_footprint/r10m/b03', '/conditions/mask/detector_footprint/r10m/b04', #'/conditions/mask/detector_footprint/r10m/b08', '/conditions/mask/detector_footprint/r20m/x', #'/conditions/mask/detector_footprint/r20m/y', '/conditions/mask/detector_footprint/r20m/b05', #'/conditions/mask/detector_footprint/r2...
 ```
