@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -37,8 +39,15 @@ library(pymdim)
 devtools::load_all()
 dsn <- sample(eopf_zarr_examples(), 1)
 #dsn <-  "ZARR:\"/vsizip//vsicurl/https://eopf-public.s3.sbg.perf.cloud.ovh.net/eoproducts/S01SIWSLC_20231201T170634_0027_A117_S27C_VH_IW1_249411.zarr.zip\""
+#dsn <- "ZARR:\"/vsizip//vsicurl/https://eopf-public.s3.sbg.perf.cloud.ovh.net/eoproducts/S02MSIL1C_20230629T063559_0000_A064_T3A5.zarr.zip\""
 ds <- multidimraster(dsn)
 get_all_array_full_names(ds$GetRootGroup())
+
+.alldimensions(ds)
+
+.allaxes(ds)
+
+.allgrids(ds)
 ```
 
 
