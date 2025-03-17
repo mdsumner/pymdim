@@ -25,7 +25,7 @@ get_dim <- function(x, varname) {
 }
 
 #dsn <- "/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_04.nc"
-dates <- seq(as.Date("1993-01-15"), Sys.Date(), by = "1 month")
+dates <- head(seq(as.Date("1993-01-15"), Sys.Date(), by = "1 month"), 20)
 
 ## flush all files to start with
 varname <- "salt"
@@ -48,7 +48,9 @@ for (i in seq_along(allfiles)) {
 allfiles <- allfiles[ok]
 dsn <- allfiles[1]
 files <- allfiles[-1]
-alldims <- alldims[ok]
+alldims <- alldims[ok][-1]
+
+#files <- files[1:3]
 library(xml2)
 
 x <- read_xml(to_xml(dsn))
@@ -58,12 +60,13 @@ node0 <- arraynodes[which(unlist(xml_attrs(arraynodes)) == varname)]
 sourcenodes <- xml_find_all(node0, "Source")
 firstfile <- xml_text(sourcenodes |> xml_find_all("SourceFilename"))
 dim <- get_dim(firstfile, varname)
+dm <- rbind(dim, do.call(rbind, alldims))
+
 incr_idx <- 1 ## the c(30, ...) accumulates
-total <- dim[incr_idx]
+offset <- dim[incr_idx] - 1
 sn <- sourcenodes[[1]]
 
-timenodes <- xml_find_all(x, "//")
-tn <-
+
 for (i in seq_along(files)) {
 
   #dim <- get_dim(files[i], varname)
@@ -75,11 +78,30 @@ for (i in seq_along(files)) {
 
    xml_attr(sourceslab, "count") <- paste0(dim, collapse = ",")
    destslab <- sn |> xml_find_first("DestSlab")
-   xml_attr(destslab, "offset") <- paste0(c(total, 0, 0, 0), collapse = ",")
-   total <- total + dim[1L]
+   xml_attr(destslab, "offset") <- paste0(c(offset, 0, 0, 0), collapse = ",")
+   offset <- offset + dim[1L]
 }
 
 timenode <- xml_find_first(x, "//Dimension[@name='Time']")
-xml_attr(timenode, "size") <- total
+xml_attr(timenode, "size") <- sum(dm[,1])
 write_xml(x, tf <- tempfile(fileext = ".vrt"))
+browseURL(tf)
 
+reticulate::py_require("gdal")
+gdal <- reticulate::import("osgeo.gdal")
+ds <- gdal$OpenEx(tf, gdal$OF_MULTIDIM_RASTER)
+rg <- ds$GetRootGroup()
+rg$GetMDArrayNames()
+salt <- rg$OpenMDArrayFromFullname("/salt")
+
+salt$GetDimensionCount()
+
+lapply(salt$GetDimensions(), \(.x) .x$GetSize())
+a <- salt$GetView("[1,:,:,1800]")
+d0 <- a$GetDimensions()[[1]]
+v0 <- d0$GetIndexingVariable()
+
+v0$ReadAsArray()
+str(m <- a$ReadAsArray())
+m[m == salt$GetNoDataValue()] <- NA
+sm <- (m * salt$GetScale() + salt$GetOffset())
