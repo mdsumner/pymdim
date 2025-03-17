@@ -83,7 +83,7 @@ for (i in 2:length(allfiles)) {
 
 timenode <- xml_find_first(x, "//Dimension[@name='Time']")
 xml_attr(timenode, "size") <- sum(dm[,1])
-write_xml(x, "inst/examples/bluelink_ocean_salt.vrt")
+#write_xml(x, "inst/examples/bluelink_ocean_salt.vrt")
 
 #write_xml(x, tf <- tempfile(fileext = ".vrt"))
 #browseURL(tf)
