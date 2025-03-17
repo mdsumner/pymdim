@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VRTDataset>
   <Group name="/">
-    <Dimension name="Time" type="TEMPORAL" size="11353" indexingVariable="Time"/>
+    <Dimension name="Time" type="TEMPORAL" size="11322" indexingVariable="Time"/>
     <Dimension name="nv" size="2" indexingVariable="nv"/>
     <Dimension name="st_edges_ocean" type="VERTICAL" direction="DOWN" size="52" indexingVariable="st_edges_ocean"/>
     <Dimension name="st_ocean" type="VERTICAL" direction="DOWN" size="51" indexingVariable="st_ocean"/>
@@ -146,2230 +146,2230 @@
         <DestSlab offset="0,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_03.nc</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="30,0,0,0"/>
+        <DestSlab offset="31,0,0,0"/>
+      </Source>
+      <Source>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_03.nc</SourceFilename>
+        <SourceArray>/salt</SourceArray>
+        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="59,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="58,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="90,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="89,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="120,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="119,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="151,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="150,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="181,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="180,0,0,0"/>
+        <DestSlab offset="212,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="211,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="243,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="242,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="273,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="272,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="304,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1993_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="303,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="334,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="333,0,0,0"/>
+        <DestSlab offset="365,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="364,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="396,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="395,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="424,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="423,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="455,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="454,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="485,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="484,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="516,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="515,0,0,0"/>
+        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
+        <DestSlab offset="546,0,0,0"/>
       </Source>
       <Source>
         <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="545,0,0,0"/>
+        <DestSlab offset="577,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
-        <SourceArray>/salt</SourceArray>
-        <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="576,0,0,0"/>
-      </Source>
-      <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="607,0,0,0"/>
+        <DestSlab offset="608,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="637,0,0,0"/>
+        <DestSlab offset="638,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="668,0,0,0"/>
+        <DestSlab offset="669,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1994_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="698,0,0,0"/>
+        <DestSlab offset="699,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="729,0,0,0"/>
+        <DestSlab offset="730,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="760,0,0,0"/>
+        <DestSlab offset="761,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="788,0,0,0"/>
+        <DestSlab offset="789,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="819,0,0,0"/>
+        <DestSlab offset="820,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="849,0,0,0"/>
+        <DestSlab offset="850,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="880,0,0,0"/>
+        <DestSlab offset="881,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="910,0,0,0"/>
+        <DestSlab offset="911,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="941,0,0,0"/>
+        <DestSlab offset="942,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="972,0,0,0"/>
+        <DestSlab offset="973,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1002,0,0,0"/>
+        <DestSlab offset="1003,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1033,0,0,0"/>
+        <DestSlab offset="1034,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1995_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1063,0,0,0"/>
+        <DestSlab offset="1064,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1094,0,0,0"/>
+        <DestSlab offset="1095,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="29,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1125,0,0,0"/>
+        <DestSlab offset="1126,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1154,0,0,0"/>
+        <DestSlab offset="1155,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1185,0,0,0"/>
+        <DestSlab offset="1186,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1215,0,0,0"/>
+        <DestSlab offset="1216,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1246,0,0,0"/>
+        <DestSlab offset="1247,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1276,0,0,0"/>
+        <DestSlab offset="1277,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1307,0,0,0"/>
+        <DestSlab offset="1308,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1338,0,0,0"/>
+        <DestSlab offset="1339,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1368,0,0,0"/>
+        <DestSlab offset="1369,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1399,0,0,0"/>
+        <DestSlab offset="1400,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1996_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1429,0,0,0"/>
+        <DestSlab offset="1430,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1460,0,0,0"/>
+        <DestSlab offset="1461,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1491,0,0,0"/>
+        <DestSlab offset="1492,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1519,0,0,0"/>
+        <DestSlab offset="1520,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1550,0,0,0"/>
+        <DestSlab offset="1551,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1580,0,0,0"/>
+        <DestSlab offset="1581,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1611,0,0,0"/>
+        <DestSlab offset="1612,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1641,0,0,0"/>
+        <DestSlab offset="1642,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1672,0,0,0"/>
+        <DestSlab offset="1673,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1703,0,0,0"/>
+        <DestSlab offset="1704,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1733,0,0,0"/>
+        <DestSlab offset="1734,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1764,0,0,0"/>
+        <DestSlab offset="1765,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1997_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1794,0,0,0"/>
+        <DestSlab offset="1795,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1825,0,0,0"/>
+        <DestSlab offset="1826,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1856,0,0,0"/>
+        <DestSlab offset="1857,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1884,0,0,0"/>
+        <DestSlab offset="1885,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1915,0,0,0"/>
+        <DestSlab offset="1916,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1945,0,0,0"/>
+        <DestSlab offset="1946,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="1976,0,0,0"/>
+        <DestSlab offset="1977,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2006,0,0,0"/>
+        <DestSlab offset="2007,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2037,0,0,0"/>
+        <DestSlab offset="2038,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2068,0,0,0"/>
+        <DestSlab offset="2069,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2098,0,0,0"/>
+        <DestSlab offset="2099,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2129,0,0,0"/>
+        <DestSlab offset="2130,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1998_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2159,0,0,0"/>
+        <DestSlab offset="2160,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2190,0,0,0"/>
+        <DestSlab offset="2191,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2221,0,0,0"/>
+        <DestSlab offset="2222,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2249,0,0,0"/>
+        <DestSlab offset="2250,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2280,0,0,0"/>
+        <DestSlab offset="2281,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2310,0,0,0"/>
+        <DestSlab offset="2311,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2341,0,0,0"/>
+        <DestSlab offset="2342,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2371,0,0,0"/>
+        <DestSlab offset="2372,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2402,0,0,0"/>
+        <DestSlab offset="2403,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2433,0,0,0"/>
+        <DestSlab offset="2434,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2463,0,0,0"/>
+        <DestSlab offset="2464,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2494,0,0,0"/>
+        <DestSlab offset="2495,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_1999_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2524,0,0,0"/>
+        <DestSlab offset="2525,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2555,0,0,0"/>
+        <DestSlab offset="2556,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="29,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2586,0,0,0"/>
+        <DestSlab offset="2587,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2615,0,0,0"/>
+        <DestSlab offset="2616,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2646,0,0,0"/>
+        <DestSlab offset="2647,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2676,0,0,0"/>
+        <DestSlab offset="2677,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2707,0,0,0"/>
+        <DestSlab offset="2708,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2737,0,0,0"/>
+        <DestSlab offset="2738,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2768,0,0,0"/>
+        <DestSlab offset="2769,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2799,0,0,0"/>
+        <DestSlab offset="2800,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2829,0,0,0"/>
+        <DestSlab offset="2830,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2860,0,0,0"/>
+        <DestSlab offset="2861,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2000_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2890,0,0,0"/>
+        <DestSlab offset="2891,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2921,0,0,0"/>
+        <DestSlab offset="2922,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2952,0,0,0"/>
+        <DestSlab offset="2953,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="2980,0,0,0"/>
+        <DestSlab offset="2981,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3011,0,0,0"/>
+        <DestSlab offset="3012,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3041,0,0,0"/>
+        <DestSlab offset="3042,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3072,0,0,0"/>
+        <DestSlab offset="3073,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3102,0,0,0"/>
+        <DestSlab offset="3103,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3133,0,0,0"/>
+        <DestSlab offset="3134,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3164,0,0,0"/>
+        <DestSlab offset="3165,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3194,0,0,0"/>
+        <DestSlab offset="3195,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3225,0,0,0"/>
+        <DestSlab offset="3226,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2001_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3255,0,0,0"/>
+        <DestSlab offset="3256,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3286,0,0,0"/>
+        <DestSlab offset="3287,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3317,0,0,0"/>
+        <DestSlab offset="3318,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3345,0,0,0"/>
+        <DestSlab offset="3346,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3376,0,0,0"/>
+        <DestSlab offset="3377,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3406,0,0,0"/>
+        <DestSlab offset="3407,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3437,0,0,0"/>
+        <DestSlab offset="3438,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3467,0,0,0"/>
+        <DestSlab offset="3468,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3498,0,0,0"/>
+        <DestSlab offset="3499,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3529,0,0,0"/>
+        <DestSlab offset="3530,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3559,0,0,0"/>
+        <DestSlab offset="3560,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3590,0,0,0"/>
+        <DestSlab offset="3591,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2002_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3620,0,0,0"/>
+        <DestSlab offset="3621,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3651,0,0,0"/>
+        <DestSlab offset="3652,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3682,0,0,0"/>
+        <DestSlab offset="3683,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3710,0,0,0"/>
+        <DestSlab offset="3711,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3741,0,0,0"/>
+        <DestSlab offset="3742,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3771,0,0,0"/>
+        <DestSlab offset="3772,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3802,0,0,0"/>
+        <DestSlab offset="3803,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3832,0,0,0"/>
+        <DestSlab offset="3833,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3863,0,0,0"/>
+        <DestSlab offset="3864,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3894,0,0,0"/>
+        <DestSlab offset="3895,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3924,0,0,0"/>
+        <DestSlab offset="3925,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3955,0,0,0"/>
+        <DestSlab offset="3956,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2003_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="3985,0,0,0"/>
+        <DestSlab offset="3986,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4016,0,0,0"/>
+        <DestSlab offset="4017,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="29,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4047,0,0,0"/>
+        <DestSlab offset="4048,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4076,0,0,0"/>
+        <DestSlab offset="4077,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4107,0,0,0"/>
+        <DestSlab offset="4108,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4137,0,0,0"/>
+        <DestSlab offset="4138,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4168,0,0,0"/>
+        <DestSlab offset="4169,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4198,0,0,0"/>
+        <DestSlab offset="4199,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4229,0,0,0"/>
+        <DestSlab offset="4230,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4260,0,0,0"/>
+        <DestSlab offset="4261,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4290,0,0,0"/>
+        <DestSlab offset="4291,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4321,0,0,0"/>
+        <DestSlab offset="4322,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2004_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4351,0,0,0"/>
+        <DestSlab offset="4352,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4382,0,0,0"/>
+        <DestSlab offset="4383,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4413,0,0,0"/>
+        <DestSlab offset="4414,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4441,0,0,0"/>
+        <DestSlab offset="4442,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4472,0,0,0"/>
+        <DestSlab offset="4473,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4502,0,0,0"/>
+        <DestSlab offset="4503,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4533,0,0,0"/>
+        <DestSlab offset="4534,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4563,0,0,0"/>
+        <DestSlab offset="4564,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4594,0,0,0"/>
+        <DestSlab offset="4595,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4625,0,0,0"/>
+        <DestSlab offset="4626,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4655,0,0,0"/>
+        <DestSlab offset="4656,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4686,0,0,0"/>
+        <DestSlab offset="4687,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2005_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4716,0,0,0"/>
+        <DestSlab offset="4717,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4747,0,0,0"/>
+        <DestSlab offset="4748,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4778,0,0,0"/>
+        <DestSlab offset="4779,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4806,0,0,0"/>
+        <DestSlab offset="4807,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4837,0,0,0"/>
+        <DestSlab offset="4838,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4867,0,0,0"/>
+        <DestSlab offset="4868,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4898,0,0,0"/>
+        <DestSlab offset="4899,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4928,0,0,0"/>
+        <DestSlab offset="4929,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4959,0,0,0"/>
+        <DestSlab offset="4960,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="4990,0,0,0"/>
+        <DestSlab offset="4991,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5020,0,0,0"/>
+        <DestSlab offset="5021,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5051,0,0,0"/>
+        <DestSlab offset="5052,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2006_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5081,0,0,0"/>
+        <DestSlab offset="5082,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5112,0,0,0"/>
+        <DestSlab offset="5113,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5143,0,0,0"/>
+        <DestSlab offset="5144,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5171,0,0,0"/>
+        <DestSlab offset="5172,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5202,0,0,0"/>
+        <DestSlab offset="5203,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5232,0,0,0"/>
+        <DestSlab offset="5233,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5263,0,0,0"/>
+        <DestSlab offset="5264,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5293,0,0,0"/>
+        <DestSlab offset="5294,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5324,0,0,0"/>
+        <DestSlab offset="5325,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5355,0,0,0"/>
+        <DestSlab offset="5356,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5385,0,0,0"/>
+        <DestSlab offset="5386,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5416,0,0,0"/>
+        <DestSlab offset="5417,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2007_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5446,0,0,0"/>
+        <DestSlab offset="5447,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5477,0,0,0"/>
+        <DestSlab offset="5478,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="29,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5508,0,0,0"/>
+        <DestSlab offset="5509,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5537,0,0,0"/>
+        <DestSlab offset="5538,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5568,0,0,0"/>
+        <DestSlab offset="5569,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5598,0,0,0"/>
+        <DestSlab offset="5599,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5629,0,0,0"/>
+        <DestSlab offset="5630,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5659,0,0,0"/>
+        <DestSlab offset="5660,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5690,0,0,0"/>
+        <DestSlab offset="5691,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5721,0,0,0"/>
+        <DestSlab offset="5722,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5751,0,0,0"/>
+        <DestSlab offset="5752,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5782,0,0,0"/>
+        <DestSlab offset="5783,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2008_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5812,0,0,0"/>
+        <DestSlab offset="5813,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5843,0,0,0"/>
+        <DestSlab offset="5844,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5874,0,0,0"/>
+        <DestSlab offset="5875,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5902,0,0,0"/>
+        <DestSlab offset="5903,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5933,0,0,0"/>
+        <DestSlab offset="5934,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5963,0,0,0"/>
+        <DestSlab offset="5964,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="5994,0,0,0"/>
+        <DestSlab offset="5995,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6024,0,0,0"/>
+        <DestSlab offset="6025,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6055,0,0,0"/>
+        <DestSlab offset="6056,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6086,0,0,0"/>
+        <DestSlab offset="6087,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6116,0,0,0"/>
+        <DestSlab offset="6117,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6147,0,0,0"/>
+        <DestSlab offset="6148,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2009_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6177,0,0,0"/>
+        <DestSlab offset="6178,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6208,0,0,0"/>
+        <DestSlab offset="6209,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6239,0,0,0"/>
+        <DestSlab offset="6240,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6267,0,0,0"/>
+        <DestSlab offset="6268,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6298,0,0,0"/>
+        <DestSlab offset="6299,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6328,0,0,0"/>
+        <DestSlab offset="6329,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6359,0,0,0"/>
+        <DestSlab offset="6360,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6389,0,0,0"/>
+        <DestSlab offset="6390,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6420,0,0,0"/>
+        <DestSlab offset="6421,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6451,0,0,0"/>
+        <DestSlab offset="6452,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6481,0,0,0"/>
+        <DestSlab offset="6482,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6512,0,0,0"/>
+        <DestSlab offset="6513,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2010_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6542,0,0,0"/>
+        <DestSlab offset="6543,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6573,0,0,0"/>
+        <DestSlab offset="6574,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6604,0,0,0"/>
+        <DestSlab offset="6605,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6632,0,0,0"/>
+        <DestSlab offset="6633,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6663,0,0,0"/>
+        <DestSlab offset="6664,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6693,0,0,0"/>
+        <DestSlab offset="6694,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6724,0,0,0"/>
+        <DestSlab offset="6725,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6754,0,0,0"/>
+        <DestSlab offset="6755,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6785,0,0,0"/>
+        <DestSlab offset="6786,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6816,0,0,0"/>
+        <DestSlab offset="6817,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6846,0,0,0"/>
+        <DestSlab offset="6847,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6877,0,0,0"/>
+        <DestSlab offset="6878,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2011_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6907,0,0,0"/>
+        <DestSlab offset="6908,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6938,0,0,0"/>
+        <DestSlab offset="6939,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="29,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6969,0,0,0"/>
+        <DestSlab offset="6970,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="6998,0,0,0"/>
+        <DestSlab offset="6999,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7029,0,0,0"/>
+        <DestSlab offset="7030,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7059,0,0,0"/>
+        <DestSlab offset="7060,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7090,0,0,0"/>
+        <DestSlab offset="7091,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7120,0,0,0"/>
+        <DestSlab offset="7121,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7151,0,0,0"/>
+        <DestSlab offset="7152,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7182,0,0,0"/>
+        <DestSlab offset="7183,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7212,0,0,0"/>
+        <DestSlab offset="7213,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7243,0,0,0"/>
+        <DestSlab offset="7244,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2012_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7273,0,0,0"/>
+        <DestSlab offset="7274,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7304,0,0,0"/>
+        <DestSlab offset="7305,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7335,0,0,0"/>
+        <DestSlab offset="7336,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7363,0,0,0"/>
+        <DestSlab offset="7364,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7394,0,0,0"/>
+        <DestSlab offset="7395,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7424,0,0,0"/>
+        <DestSlab offset="7425,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7455,0,0,0"/>
+        <DestSlab offset="7456,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7485,0,0,0"/>
+        <DestSlab offset="7486,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7516,0,0,0"/>
+        <DestSlab offset="7517,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7547,0,0,0"/>
+        <DestSlab offset="7548,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7577,0,0,0"/>
+        <DestSlab offset="7578,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7608,0,0,0"/>
+        <DestSlab offset="7609,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2013_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7638,0,0,0"/>
+        <DestSlab offset="7639,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7669,0,0,0"/>
+        <DestSlab offset="7670,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7700,0,0,0"/>
+        <DestSlab offset="7701,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7728,0,0,0"/>
+        <DestSlab offset="7729,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7759,0,0,0"/>
+        <DestSlab offset="7760,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7789,0,0,0"/>
+        <DestSlab offset="7790,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7820,0,0,0"/>
+        <DestSlab offset="7821,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7850,0,0,0"/>
+        <DestSlab offset="7851,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7881,0,0,0"/>
+        <DestSlab offset="7882,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7912,0,0,0"/>
+        <DestSlab offset="7913,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7942,0,0,0"/>
+        <DestSlab offset="7943,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="7973,0,0,0"/>
+        <DestSlab offset="7974,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2014_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8003,0,0,0"/>
+        <DestSlab offset="8004,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8034,0,0,0"/>
+        <DestSlab offset="8035,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8065,0,0,0"/>
+        <DestSlab offset="8066,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8093,0,0,0"/>
+        <DestSlab offset="8094,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8124,0,0,0"/>
+        <DestSlab offset="8125,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8154,0,0,0"/>
+        <DestSlab offset="8155,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8185,0,0,0"/>
+        <DestSlab offset="8186,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8215,0,0,0"/>
+        <DestSlab offset="8216,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8246,0,0,0"/>
+        <DestSlab offset="8247,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8277,0,0,0"/>
+        <DestSlab offset="8278,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8307,0,0,0"/>
+        <DestSlab offset="8308,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8338,0,0,0"/>
+        <DestSlab offset="8339,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2015_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8368,0,0,0"/>
+        <DestSlab offset="8369,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8399,0,0,0"/>
+        <DestSlab offset="8400,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="29,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8430,0,0,0"/>
+        <DestSlab offset="8431,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8459,0,0,0"/>
+        <DestSlab offset="8460,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8490,0,0,0"/>
+        <DestSlab offset="8491,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8520,0,0,0"/>
+        <DestSlab offset="8521,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8551,0,0,0"/>
+        <DestSlab offset="8552,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8581,0,0,0"/>
+        <DestSlab offset="8582,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8612,0,0,0"/>
+        <DestSlab offset="8613,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8643,0,0,0"/>
+        <DestSlab offset="8644,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8673,0,0,0"/>
+        <DestSlab offset="8674,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8704,0,0,0"/>
+        <DestSlab offset="8705,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2016_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8734,0,0,0"/>
+        <DestSlab offset="8735,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8765,0,0,0"/>
+        <DestSlab offset="8766,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8796,0,0,0"/>
+        <DestSlab offset="8797,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8824,0,0,0"/>
+        <DestSlab offset="8825,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8855,0,0,0"/>
+        <DestSlab offset="8856,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8885,0,0,0"/>
+        <DestSlab offset="8886,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8916,0,0,0"/>
+        <DestSlab offset="8917,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8946,0,0,0"/>
+        <DestSlab offset="8947,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="8977,0,0,0"/>
+        <DestSlab offset="8978,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9008,0,0,0"/>
+        <DestSlab offset="9009,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9038,0,0,0"/>
+        <DestSlab offset="9039,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9069,0,0,0"/>
+        <DestSlab offset="9070,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2017_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9099,0,0,0"/>
+        <DestSlab offset="9100,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9130,0,0,0"/>
+        <DestSlab offset="9131,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9161,0,0,0"/>
+        <DestSlab offset="9162,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9189,0,0,0"/>
+        <DestSlab offset="9190,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9220,0,0,0"/>
+        <DestSlab offset="9221,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9250,0,0,0"/>
+        <DestSlab offset="9251,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9281,0,0,0"/>
+        <DestSlab offset="9282,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9311,0,0,0"/>
+        <DestSlab offset="9312,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9342,0,0,0"/>
+        <DestSlab offset="9343,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9373,0,0,0"/>
+        <DestSlab offset="9374,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9403,0,0,0"/>
+        <DestSlab offset="9404,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9434,0,0,0"/>
+        <DestSlab offset="9435,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2018_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9464,0,0,0"/>
+        <DestSlab offset="9465,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9495,0,0,0"/>
+        <DestSlab offset="9496,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9526,0,0,0"/>
+        <DestSlab offset="9527,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9554,0,0,0"/>
+        <DestSlab offset="9555,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9585,0,0,0"/>
+        <DestSlab offset="9586,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9615,0,0,0"/>
+        <DestSlab offset="9616,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9646,0,0,0"/>
+        <DestSlab offset="9647,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9676,0,0,0"/>
+        <DestSlab offset="9677,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9707,0,0,0"/>
+        <DestSlab offset="9708,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9738,0,0,0"/>
+        <DestSlab offset="9739,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9768,0,0,0"/>
+        <DestSlab offset="9769,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9799,0,0,0"/>
+        <DestSlab offset="9800,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2019_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9829,0,0,0"/>
+        <DestSlab offset="9830,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9860,0,0,0"/>
+        <DestSlab offset="9861,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="29,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9891,0,0,0"/>
+        <DestSlab offset="9892,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9920,0,0,0"/>
+        <DestSlab offset="9921,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9951,0,0,0"/>
+        <DestSlab offset="9952,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="9981,0,0,0"/>
+        <DestSlab offset="9982,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10012,0,0,0"/>
+        <DestSlab offset="10013,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10042,0,0,0"/>
+        <DestSlab offset="10043,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10073,0,0,0"/>
+        <DestSlab offset="10074,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10104,0,0,0"/>
+        <DestSlab offset="10105,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10134,0,0,0"/>
+        <DestSlab offset="10135,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10165,0,0,0"/>
+        <DestSlab offset="10166,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2020_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10195,0,0,0"/>
+        <DestSlab offset="10196,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10226,0,0,0"/>
+        <DestSlab offset="10227,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10257,0,0,0"/>
+        <DestSlab offset="10258,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10285,0,0,0"/>
+        <DestSlab offset="10286,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10316,0,0,0"/>
+        <DestSlab offset="10317,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10346,0,0,0"/>
+        <DestSlab offset="10347,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10377,0,0,0"/>
+        <DestSlab offset="10378,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10407,0,0,0"/>
+        <DestSlab offset="10408,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10438,0,0,0"/>
+        <DestSlab offset="10439,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10469,0,0,0"/>
+        <DestSlab offset="10470,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10499,0,0,0"/>
+        <DestSlab offset="10500,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10530,0,0,0"/>
+        <DestSlab offset="10531,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2021_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10560,0,0,0"/>
+        <DestSlab offset="10561,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10591,0,0,0"/>
+        <DestSlab offset="10592,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10622,0,0,0"/>
+        <DestSlab offset="10623,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10650,0,0,0"/>
+        <DestSlab offset="10651,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10681,0,0,0"/>
+        <DestSlab offset="10682,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10711,0,0,0"/>
+        <DestSlab offset="10712,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10742,0,0,0"/>
+        <DestSlab offset="10743,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10772,0,0,0"/>
+        <DestSlab offset="10773,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10803,0,0,0"/>
+        <DestSlab offset="10804,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10834,0,0,0"/>
+        <DestSlab offset="10835,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10864,0,0,0"/>
+        <DestSlab offset="10865,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10895,0,0,0"/>
+        <DestSlab offset="10896,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2022_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10925,0,0,0"/>
+        <DestSlab offset="10926,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_01.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10956,0,0,0"/>
+        <DestSlab offset="10957,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_02.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="28,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="10987,0,0,0"/>
+        <DestSlab offset="10988,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_03.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11015,0,0,0"/>
+        <DestSlab offset="11016,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_04.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11046,0,0,0"/>
+        <DestSlab offset="11047,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_05.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11076,0,0,0"/>
+        <DestSlab offset="11077,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_06.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11107,0,0,0"/>
+        <DestSlab offset="11108,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_07.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11137,0,0,0"/>
+        <DestSlab offset="11138,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_08.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11168,0,0,0"/>
+        <DestSlab offset="11169,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_09.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11199,0,0,0"/>
+        <DestSlab offset="11200,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_10.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11229,0,0,0"/>
+        <DestSlab offset="11230,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_11.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="30,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11260,0,0,0"/>
+        <DestSlab offset="11261,0,0,0"/>
       </Source>
       <Source>
-        <SourceFilename>NA</SourceFilename>
+        <SourceFilename>/vsicurl/https://thredds.nci.org.au/thredds/fileServer/gb6/BRAN/BRAN2020/daily/ocean_salt_2023_12.nc</SourceFilename>
         <SourceArray>/salt</SourceArray>
         <SourceSlab offset="0,0,0,0" count="31,51,1500,3600" step="1,1,1,1"/>
-        <DestSlab offset="11290,0,0,0"/>
+        <DestSlab offset="11291,0,0,0"/>
       </Source>
       <Attribute name="cell_methods">
         <DataType>String</DataType>

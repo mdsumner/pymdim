@@ -48,7 +48,7 @@ for (i in seq_along(allfiles)) {
 allfiles <- allfiles[ok]
 dsn <- allfiles[1]
 alldims <- alldims[ok]
-dm <- rbind(dim, do.call(rbind, alldims))
+dm <- do.call(rbind, alldims)
 
 #files <- files[1:3]
 library(xml2)
@@ -62,7 +62,7 @@ firstfile <- xml_text(sourcenodes |> xml_find_all("SourceFilename"))
 dim <- dm[1L, ]
 
 incr_idx <- 1 ## the c(30, ...) accumulates
-offset <- dim[incr_idx] - 1
+offset <- dim[incr_idx]
 sn <- sourcenodes[[1]]
 
 
@@ -70,23 +70,24 @@ for (i in 2:length(allfiles)) {
 
   #dim <- get_dim(files[i], varname)
   dim <- alldims[[i]]
+
   sn <-   xml_add_sibling(sn, sourcenodes[[1]])
 
-   xml_text(sn) <- files[i]
+   xml_text(sn) <- allfiles[i]
    sourceslab <- sn |> xml_find_first("SourceSlab")
 
    xml_attr(sourceslab, "count") <- paste0(dim, collapse = ",")
    destslab <- sn |> xml_find_first("DestSlab")
    xml_attr(destslab, "offset") <- paste0(c(offset, 0, 0, 0), collapse = ",")
-   offset <- offset + dim[1L]
+   offset <- offset + dim[incr_idx]
 }
 
 timenode <- xml_find_first(x, "//Dimension[@name='Time']")
 xml_attr(timenode, "size") <- sum(dm[,1])
-#write_xml(x, "inst/examples/bluelink_ocean_salt.vrt")
+write_xml(x, "inst/examples/bluelink_ocean_salt.vrt")
 
-#write_xml(x, tf <- tempfile(fileext = ".vrt"))
-#browseURL(tf)
+write_xml(x, tf <- tempfile(fileext = ".vrt"))
+browseURL(tf)
 
 reticulate::py_require("gdal")
 gdal <- reticulate::import("osgeo.gdal")
@@ -101,8 +102,28 @@ lapply(salt$GetDimensions(), \(.x) .x$GetSize())
 a <- salt$GetView("[1,:,:,1800]")
 d0 <- a$GetDimensions()[[1]]
 v0 <- d0$GetIndexingVariable()
-
+## depth
 v0$ReadAsArray()
+
+d1 <- a$GetDimensions()[[2]]
+v1 <- d1$GetIndexingVariable()
+## lat
+str(v1$ReadAsArray())
+
+
 str(m <- a$ReadAsArray())
 m[m == salt$GetNoDataValue()] <- NA
 sm <- (m * salt$GetScale() + salt$GetOffset())
+lon <- salt$GetDimensions()[[4]]$GetIndexingVariable()$ReadAsArray()[1801]
+lat <- salt$GetDimensions()[[3]]$GetIndexingVariable()$ReadAsArray()
+z <- salt$GetDimensions()[[2]]$GetIndexingVariable()$ReadAsArray()
+
+## read topo
+library(terra)
+r <- terra::project(terra::rast(sds::gebco()), terra::rast(terra::ext(179, 181, -90, 90), res = .1), by_util = TRUE)
+topo <- extract(r, vect(cbind(180.05, c(-90, 90)), type = "line"))
+y <- yFromRow(r, 1:nrow(r))
+
+## and whoa this is rough, but some kind of sanity check in linear-space
+image(lat, rev(-z), t(sm[nrow(sm):1, ]))
+lines(y, topo[,2])
